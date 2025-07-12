@@ -60,7 +60,7 @@ void initGame() {
   }
 
   game.state = GAME_START;
-  game.info.score = 500;
+  game.info.score = 0;
   game.info.level = 1;
   game.info.speed = 150;
   game.info.pause = 0;
